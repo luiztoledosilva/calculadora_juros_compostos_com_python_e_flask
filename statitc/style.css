@@ -1,0 +1,46 @@
+/* 🌊 Estilo base */
+
+body {
+    background-color: #E0FFFF;
+}
+
+
+/* 📱 Até 768px (tablets e celulares maiores) */
+
+@media (max-width: 768px) {
+    form {
+        max-width: 100%;
+        padding: 15px;
+    }
+    input,
+    button {
+        font-size: 16px;
+        padding: 12px;
+    }
+    h2,
+    p {
+        font-size: 18px;
+    }
+}
+
+
+/* 📱 Até 480px (celulares menores) */
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    form {
+        padding: 10px;
+    }
+    input,
+    button {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
